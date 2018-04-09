@@ -107,7 +107,7 @@ app.get('/api/forecast/hourly', function(req, res) {
     });
 });
 
-app.listen(appEnv.port, appEnv.bind, function() {
+app.listen(process.env.PORT || appEnv.port, appEnv.bind, function() {
   console.log("server starting on " + appEnv.url);
 });
 
