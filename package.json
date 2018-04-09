@@ -1,10 +1,10 @@
 {
-  "name": "weather-company-data-demo",
-  "version": "0.0.2",
-  "private": false,
+  "name": "real-time-weather-report",
+  "version": "0.0.0",
+  "private": true,
   "description": "A sample nodejs app for using the Weather Company Data Service in Bluemix.",
   "engines": {
-    "node": "0.12.*"
+    "node": "8.9.*"
   },
   "scripts": {
     "start": "node app.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/weather-company-data-demo.git"
+    "url": "https://github.com/YasserZhang/real-time-weather-report.git"
   },
   "dependencies": {
     "cfenv": "^1.0.3",
